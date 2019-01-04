@@ -27,6 +27,9 @@ Rotating and generating the gateway portal based on facing direction would be
 ideal, but is low priority since gateway portals can be updated post-generation 
 by regular means.
 
+Each time a player tries to set up a gateway portal, it should check to see if 
+they have at least 5 levels. If so, allow it and subtract 5 levels from them.
+
 Finally, it would be possible to not reset on dimension shift, by tracking 
 separate coordinate sets for each dimension. Too much extra bloat for not much 
 additional value, in my opinion.
