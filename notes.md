@@ -26,3 +26,7 @@ implement variants based on biome.
 Rotating and generating the gateway portal based on facing direction would be 
 ideal, but is low priority since gateway portals can be updated post-generation 
 by regular means.
+
+Finally, it would be possible to not reset on dimension shift, by tracking 
+separate coordinate sets for each dimension. Too much extra bloat for not much 
+additional value, in my opinion.
