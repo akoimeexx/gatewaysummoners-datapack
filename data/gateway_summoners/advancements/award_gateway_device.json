@@ -1,0 +1,47 @@
+{
+    "display": {
+        "title": {
+            "text": "Planeswalker's Intuition"
+        },
+        "description": {
+            "text": "You've unraveled the mysteries of end gateways"
+        },
+        "icon": {
+            "item": "minecraft:compass",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "entered_gateway": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:end_gateway"
+            }
+        },
+        "compass_available": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:compass"
+            }
+        },
+        "killed_dragon": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ender_dragon",
+                    "location": {
+                        "dimension": "the_end"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "akoimeexx:gateway_summoners/give_device"
+    },
+    "parent": "minecraft:story/root"
+}

@@ -1,0 +1,1 @@
+give @p minecraft:compass{display:{Name:"{\"text\":\"Gateway Device\",\"color\":\"gold\"}",Lore:["Gateway Summoners datapack"]},Enchantments:[{}],Gateway:1b}

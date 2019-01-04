@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "placed_marker": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:end_rod",
+                "state": {
+                    "facing": "up"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "akoimeexx:gateway_summoners/placed_marker"
+    },
+    "parent": "minecraft:story/root"
+}

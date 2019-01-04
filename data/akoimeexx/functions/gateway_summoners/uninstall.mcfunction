@@ -1,0 +1,7 @@
+scoreboard objectives remove gateway_x1
+scoreboard objectives remove gateway_y1
+scoreboard objectives remove gateway_z1
+scoreboard objectives remove gateway_x2
+scoreboard objectives remove gateway_y2
+scoreboard objectives remove gateway_z2
+scoreboard objectives remove gatewayflag
