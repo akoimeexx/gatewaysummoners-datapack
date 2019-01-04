@@ -14,7 +14,7 @@ no ill effects.
 ## Usage
 Have the compass crafting recipe. Get your @$# to ~~Mars~~ The End. Defeat the 
 Ender Dragon. Go through an End Gateway there. Become enlightened as you are 
-gited a `Gateway Device` compass.
+gifted a `Gateway Device` compass.
 
 Using the `Gateway Device` in your offhand, placing end rods triggers gateway 
 setup. The first end rod placed is designated as the source, where the gateway 
